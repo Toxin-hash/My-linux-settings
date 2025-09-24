@@ -1,0 +1,21 @@
+.main-root {
+    background: rgba(10, 20, 40, 0.5) !important;
+    backdrop-filter: blur(4px) !important;
+
+.main-topBar-background,
+.Root__top-bar,
+.main-navBar-navBar,
+.main-nowPlayingBar-container {
+    background: rgba(10, 20, 40, 0.4) !important;
+    backdrop-filter: blur(4px) !important;
+}
+
+.Root__main-view {
+    background: transparent !important;
+}
+
+//KDE will over run transparent, change it window rules
+// Settings for WM_CLASS(STRING) = "spotify", "Spotify"
+
+//set that in description and window class {spotify spotify} with active and inactive opacity to 75%
+// no titlebar and frame set to yes and all set to force
