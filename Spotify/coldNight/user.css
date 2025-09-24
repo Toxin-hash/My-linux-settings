@@ -14,8 +14,8 @@
     background: transparent !important;
 }
 
-//KDE will over run transparent, change it window rules
+//KDE will over run transparent, change it in window rules
 // Settings for WM_CLASS(STRING) = "spotify", "Spotify"
 
-//set that in description and window class {spotify spotify} with active and inactive opacity to 75%
+//set that in description and window class , {spotify spotify} with active and inactive opacity to 75%
 // no titlebar and frame set to yes and all set to force
